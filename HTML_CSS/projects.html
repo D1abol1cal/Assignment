@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio - Projects</title>
+  <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="education.html">Education</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="projects">
+      <h1>My Projects</h1>
+      <div id="project-filters">
+        <label for="technology-filter">Filter by Technology:</label>
+        <select id="technology-filter">
+          <option value="all">All</option>
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="Flutter">Flutter</option>
+          <option value="Python">Python</option>
+          <option value=".NET">.NET</option>
+          <option value="React.js">React.js</option>
+          <option value="Tensorflow">Tensorflow</option>
+          <option value="javascript">JavaScript</option>
+          
+          <!-- Add more options for other technologies -->
+        </select>
+      </div>
+      <div id="project-list">
+        <!-- Project cards will be dynamically rendered here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; [2024] [Syed Nofel Talha]. All rights reserved.</p>
+  </footer>
+
+  <script src="projects.js"></script>
+</body>
+</html>
